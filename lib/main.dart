@@ -41,15 +41,14 @@ class RealWorldState extends State<RealWorldApp> {
   }
 
   @override
-    void initState() {
-      // TODO: implement initState
-      super.initState();
-      _fetchData();
-    }
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _fetchData();
+  }
 
   @override
   Widget build(BuildContext context) {
-    // return new MaterialApp();
     return new MaterialApp(
       home: new Scaffold(
         appBar: new AppBar(
